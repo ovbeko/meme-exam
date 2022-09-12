@@ -1,0 +1,91 @@
+@font-face {
+	font-family: "rust";
+	src: url("school.ttf");
+}
+.wallpaper {
+	background-image: url(images/wallpaper.png);
+	font-family: rust;
+}
+.wallpaper:hover {
+	cursor: url('images/pen.cur'), auto
+}
+.text-and-cursor {
+	font-family: rust;
+	cursor: url('images/person.cur'), auto
+}
+.nb {
+	background: url(images/nb.png);
+	background-size: 100% 100%;
+	transition: 0.5s;
+}
+.main-pic {
+	background-image: url(images/main.png);
+	background-size: 100% 100%;
+	border-radius: 0.5vh;
+}
+.end-pic {
+	background-image: url(images/logo.png);
+	background-size: 100% 100%;
+	border-radius: 0.5vh;
+}
+.start-btn {
+	color: rgba(44, 118, 230, 1.0);
+}
+.start-btn:active {
+	color: rgba(60, 214, 73, 1.0);
+}
+.q1 {
+	display: none;
+}
+.q2 {
+	display: none;
+}
+.q3 {
+	display: none;
+}
+.end {
+	display: none;
+}
+.q1-pic {
+	background-image: url(images/q1.jpg);
+	background-size: 100% 100%;
+	border-radius: 0.5vh;
+	opacity: 0.9;
+	filter: brightness(0.75);
+}
+.q-btn {
+	color: rgba(44, 118, 230, 1.0);
+}
+.q1a1:active {
+	color: rgba(214, 60, 60, 1.0);
+}
+.q1a2:active {
+	color: rgba(60, 214, 73, 1.0);
+}
+.q1a3:active {
+	color: rgba(214, 60, 60, 1.0);
+}
+.q2a1:active {
+	color: rgba(60, 214, 73, 1.0);
+}
+.q2a2:active {
+	color: rgba(214, 60, 60, 1.0);
+}
+.q2a3:active {
+	color: rgba(214, 60, 60, 1.0);
+}
+.q3a1:active {
+	color: rgba(60, 214, 73, 1.0);
+}
+.q3a2:active {
+	color: rgba(214, 60, 60, 1.0);
+}
+.q3a3:active {
+	color: rgba(214, 60, 60, 1.0);
+}
+.end-btn {
+	color: rgba(44, 118, 230, 1.0);
+}
+.end-btn:active {
+	color: rgba(60, 214, 73, 1.0);
+}

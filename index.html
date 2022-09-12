@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Meme exam</title>
+	<link rel="icon" type="image/x-icon" href="images/logo.png">
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+	<div class="wallpaper">
+		<div class="main nb col-6 mx-auto pt-5" style="height: 100vh">
+			<div class="col-8 mx-auto main-pic mt-5" style="height: 45vh"></div>
+			<h1 class="text-center text-danger fs-2 mt-4 user-select-none" style="font-family: rust;">Пройдите экзамен по мемам!</h1>
+			<div class="col-2 mx-auto mt-5">
+				<h1 class="start-btn text-center fs-1 mt-2 user-select-none text-and-cursor">Пройти!</h1>
+			</div>
+		</div>
+
+		<div class="q1 nb col-6 mx-auto pt-5" style="height: 100vh">
+			<div class="col-8 mx-auto border border-dark q1-pic mt-5" style="height: 45vh"></div>
+			<h1 class="text-center text-danger fs-2 mt-4 user-select-none" style="font-family: rust;">Какую религию принял дед из этого мема?</h1>
+			<div class="mx-auto mt-5">
+				<h1 class="q1a1 q-btn text-center fs-1 mt-2 user-select-none text-and-cursor">Пастафарианство</h1>
+			</div>
+			<div class="mx-auto mt-5">
+				<h1 class="q1a2 q-btn text-center fs-1 mt-2 user-select-none text-and-cursor">Ислам</h1>
+			</div>
+			<div class="mx-auto mt-5">
+				<h1 class="q1a3 q-btn text-center fs-1 mt-2 user-select-none text-and-cursor">Христианство</h1>
+			</div>
+		</div>
+
+		<div class="q2 nb col-6 mx-auto pt-5" style="height: 100vh">
+			<div class="col-8 mx-auto mt-5">
+				<iframe width="625" height="370" class="border-dark border" style="border-radius: 0.5vh;" src="https://www.youtube.com/embed/q1NjNA1GWBs" title="10 ЧАСОВ - ШНИ ШНА ШНАПИ ШНАПИ ШНАПИ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<h1 class="text-center text-danger fs-2 mt-4 user-select-none" style="font-family: rust;">С какой песней сначала был распрострен этот мем?</h1>
+			<div class="mx-auto mt-5">
+				<h1 class="q2a1 q-btn text-center fs-1 mt-2 user-select-none text-and-cursor">Пятипонэ пятипонэ...</h1>
+			</div>
+			<div class="mx-auto mt-5">
+				<h1 class="q2a2 q-btn text-center fs-1 mt-2 user-select-none text-and-cursor">Шни шна шнапи...</h1>
+			</div>
+			<div class="mx-auto mt-5">
+				<h1 class="q2a3 q-btn text-center fs-1 mt-2 user-select-none text-and-cursor">Тури ип ип ип...</h1>
+			</div>
+		</div>
+
+		<div class="q3 nb col-6 mx-auto pt-5" style="height: 100vh">
+			<div class="col-8 mx-auto mt-5">
+				<iframe frameborder="0" class="border border-dark mt-5 mx-auto" style="border-radius: 0.5vh;width:100%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/84040776/17022178">Слушайте <a href='https://music.yandex.ru/album/17022178/track/84040776'>Gdzie jest biały węgorz? (Zejśćie)</a> — <a href='https://music.yandex.ru/artist/8439678'>Cypis</a> на Яндекс Музыке</iframe>
+			</div>
+			<h1 class="text-center text-danger fs-2 mt-3 user-select-none" style="font-family: rust;">Какое животное флексило под этот трек?</h1>
+			<div class="mx-auto mt-5">
+				<h1 class="q3a1 q-btn text-center fs-1 mt-4 user-select-none text-and-cursor">Корова</h1>
+			</div>
+			<div class="mx-auto mt-5">
+				<h1 class="q3a2 q-btn text-center fs-1 mt-4 user-select-none text-and-cursor">Бобёр</h1>
+			</div>
+			<div class="mx-auto mt-5">
+				<h1 class="q3a3 q-btn text-center fs-1 mt-4 user-select-none text-and-cursor">Свинья</h1>
+			</div>
+		</div>
+
+		<div class="end nb col-6 mx-auto pt-5" style="height: 100vh">
+			<div class="col-8 mx-auto end-pic mt-5" style="height: 45vh"></div>
+			<h1 class="text-center text-danger fs-2 mt-4 user-select-none" style="font-family: rust;">Поздравляю! Ты  прошёл, но я не знаю как делать...</h1>
+			<div class="mx-auto mt-5">
+				<h1 class="end-btn text-center fs-1 mt-2 user-select-none text-and-cursor">Пройти по приколу ещё раз</h1>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		document.querySelector(".start-btn").onclick = function(){
+			document.querySelector(".main").style.opacity = "0";
+			document.querySelector(".main").style.display = "none";
+			document.querySelector(".q1").style.display = "block";
+		}
+		document.querySelector(".q1a1").onclick = function(){
+			alert("Не правильно!")
+			document.querySelector(".q1").style.display = "none";
+			document.querySelector(".q2").style.display = "block";
+		}
+		document.querySelector(".q1a2").onclick = function(){
+			alert("Правильно!")
+			document.querySelector(".q1").style.display = "none";
+			document.querySelector(".q2").style.display = "block";
+		}
+		document.querySelector(".q1a3").onclick = function(){
+			alert("Не правильно!")
+			document.querySelector(".q1").style.display = "none";
+			document.querySelector(".q2").style.display = "block";
+		}
+		document.querySelector(".q2a1").onclick = function(){
+			alert("Правильно!")
+			document.querySelector(".q2").style.display = "none";
+			document.querySelector(".q3").style.display = "block";
+		}
+		document.querySelector(".q2a2").onclick = function(){
+			alert("Не правильно!")
+			document.querySelector(".q2").style.display = "none";
+			document.querySelector(".q3").style.display = "block";
+		}
+		document.querySelector(".q2a3").onclick = function(){
+			alert("Не правильно!")
+			document.querySelector(".q2").style.display = "none";
+			document.querySelector(".q3").style.display = "block";
+		}
+		document.querySelector(".q3a1").onclick = function(){
+			alert("Правильно!")
+			document.querySelector(".q3").style.display = "none";
+			document.querySelector(".end").style.display = "block";
+		}
+		document.querySelector(".q3a2").onclick = function(){
+			alert("Не правильно!")
+			document.querySelector(".q3").style.display = "none";
+			document.querySelector(".end").style.display = "block";
+		}
+		document.querySelector(".q3a3").onclick = function(){
+			alert("Не правильно!")
+			document.querySelector(".q3").style.display = "none";
+			document.querySelector(".end").style.display = "block";
+		}
+		document.querySelector(".end-btn").onclick = function(){
+			document.querySelector(".end").style.display = "none";
+			document.querySelector(".q1").style.display = "block";
+		}
+	</script>
+</body>
+</html>
